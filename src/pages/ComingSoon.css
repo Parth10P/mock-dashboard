@@ -1,0 +1,36 @@
+.coming-soon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.coming-soon-icon-wrap {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: var(--indigo-50);
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.coming-soon-icon {
+  color: var(--indigo-500);
+}
+
+.coming-soon-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+  text-transform: capitalize;
+}
+
+.coming-soon-text {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}

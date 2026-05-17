@@ -1,0 +1,84 @@
+.usage-widget {
+  background-color: var(--bg-white);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.usage-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+}
+
+.usage-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.usage-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.usage-label {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.usage-value {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.usage-progress-bg {
+  width: 100%;
+  background-color: var(--border-light);
+  border-radius: 9999px;
+  height: 0.5rem;
+}
+
+.usage-progress-fill {
+  background-color: var(--blue-500);
+  height: 0.5rem;
+  border-radius: 9999px;
+  transition: width 0.5s ease;
+}
+
+.usage-percentage {
+  font-size: 0.6875rem;
+  color: var(--text-tertiary);
+  margin-top: 0.25rem;
+}
+
+.usage-stats {
+  border-top: 1px solid var(--border-light);
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.usage-stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usage-stat-label {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.usage-stat-value {
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  font-weight: 600;
+}
